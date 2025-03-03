@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>開啟 B2 Boss Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0066cc;
+        }
+        .button {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0052a3;
+        }
+        .note {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>B2 Boss Timer 應用程式</h1>
+        <p>點擊下方按鈕開啟應用程式：</p>
+        <a href="http://localhost:3000" class="button" target="_blank">開啟應用程式</a>
+        <p class="note">注意：請確保您已經運行了 run-app.bat 文件並且開發服務器正在運行。</p>
+        <p class="note">如果應用程式沒有打開，請確保開發服務器已啟動，並且正在監聽 3000 端口。</p>
+    </div>
+    <script>
+        // 自動重定向到應用程式
+        window.location.href = "http://localhost:3000";
+    </script>
+</body>
+</html>

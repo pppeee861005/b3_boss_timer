@@ -1,0 +1,9 @@
+@echo off
+echo 開始部署 B2 Boss Timer 應用程式到 GitHub Pages...
+cd react-boss-timer
+echo 安裝依賴...
+call npm install
+echo 部署應用程式...
+call npm run deploy
+echo 部署完成！請訪問 https://pppeee861005.github.io/b2_boss_timer/
+pause

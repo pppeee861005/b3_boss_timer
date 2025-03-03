@@ -1,4 +1,4 @@
-# B2 Boss Timer 應用程式
+# B2 Boss Timer 應用程式. 天堂m的出王時間
 
 這個資料夾包含 B2 Boss Timer 應用程式，用於追蹤遊戲中 B2 區域的 Boss 重生時間。
 
